@@ -1,6 +1,34 @@
-﻿@import '@nativescript/theme/css/core.css';
-@import '@nativescript/theme/css/default.css';
+﻿@import "@nativescript/theme/css/core.css";
+@import "@nativescript/theme/css/default.css";
 
-Button.-primary {
-  font-size: 18;
+ActionBar {
+  background-color: black;
+  color: white;
+}
+
+GridLayout {
+  background-color: pink;
+  background-image: url("https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 1px;
+  padding-top: 810px;
+}
+
+.colorX {
+  background-color: purple;
+  font-size: 17px;
+  color: white;
+}
+
+.colorY {
+  background-color: magenta;
+  font-size: 17px;
+  color: white;
+}
+
+.colorZ {
+  background-color: palevioletred;
+  font-size: 17px;
+  color: white;
 }

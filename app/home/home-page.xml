@@ -1,0 +1,13 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+
+<ActionBar title="Honest work" icon=""/>
+
+    <GridLayout  rows="0, 69, 69, 69" columns="0,69,420">
+        <Label class="colorX" text="x = " row="1" col="1"></Label>
+        <Label class="colorX" text="{{ x }}" row="1" col="2"></Label>
+        <Label class="colorY" text="y = " row="2" col="1"></Label>
+        <Label class="colorY" text="{{ y }}" row="2" col="2"></Label>
+        <Label class="colorZ" text="z = " row="3" col="1"></Label>
+        <Label class="colorZ" text="{{ z }}" row="3" col="2"></Label>
+    </GridLayout>
+</Page>
